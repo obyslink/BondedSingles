@@ -99,7 +99,8 @@ public class WebViewActivity extends Activity implements View.OnTouchListener,Ha
         );
 
 
-        webView.loadUrl("https://www.bondedsingles-members.online");
+       // webView.loadUrl("https://www.bondedsingles-members.online");
+        webView.loadUrl("https://www.avicii.ca");
     }
     @Override
     public boolean onTouch(View v, MotionEvent event) {

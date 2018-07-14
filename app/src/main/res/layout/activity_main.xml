@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/colorBlack"
     tools:context="com.bondedsingles.bondedsingles.MainActivity">
 
     <LinearLayout
@@ -30,6 +30,7 @@
         android:textSize="16sp"
         android:textColor="@color/colorPrimary"
         android:layout_centerVertical="true"
-        android:text="Bonded Singles"/>
+        android:text="@string/app_name"
+        android:visibility="gone"/>
     </LinearLayout>
 </RelativeLayout>
